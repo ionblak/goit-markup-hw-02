@@ -16,6 +16,9 @@ FFFFFF-адрес в футере
   color: var(--primary-text-color);
   background-color: var(--bg-color);
 }
+a {
+  text-decoration: none;
+}
 ul {
   list-style: none;
 }
