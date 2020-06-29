@@ -1,0 +1,48 @@
+/*757575-вторичный цвет
+212121-основной цвет текста
+FFFFFF-адрес в футере
+
+ color:rgb(255,255,255,0.6)-цвет телефона и эмейла в футере
+ 2196F3-цвет акцента
+ 
+ */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --bg-color: #fff;
+}
+.page {
+  color: var(--primary-text-color);
+  background-color: var(--bg-color);
+}
+ul {
+  list-style: none;
+}
+/* шапка страницы */
+.logo {
+  color: var(--accent-color);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--title-text-color);
+}
+/* навигация сайта */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--title-text-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/* тело страницы */
+/*  .hero-title {
+  color: #fff;
+}*/
+
+.section-title {
+  color: var(--title-text-color);
+}
