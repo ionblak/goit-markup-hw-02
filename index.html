@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body class="page">
@@ -11,7 +15,7 @@
     <header>
       <nav class="site-nav">
         <a href="./index.html" class="logo">Web Studio</a>
-        <ul>
+        <ul class="list">
           <li><a href="./index.html" class="link current">Студия</a></li>
           <li>
             <a href="./portfolio.html" class="link" target="_blank"
@@ -21,9 +25,9 @@
           <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
-      <address>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+      <address class="site-nav">
+        <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+        <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
       </address>
     </header>
     <main>
@@ -33,36 +37,36 @@
           Эффективные решения<br />
           длявашего бизнеса
         </h1>
-        <button>Заказать услугу</button>
+        <button class="button">Заказать услугу</button>
       </section>
       <!--наши преимущества -->
-      <section class="section">
+      <section class="advantages">
         <h2 class="section-title">Наши преимущества</h2>
-        <ul>
+        <ul class="list">
           <li>
-            <h3>Внимание к деталям</h3>
-            <p>
+            <h3 class="title">Внимание к деталям</h3>
+            <p class="text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
-            <h3>Пунктуальность</h3>
-            <p>
+            <h3 class="title">Пунктуальность</h3>
+            <p class="text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
-            <h3>Планирование</h3>
-            <p>
+            <h3 class="title">Планирование</h3>
+            <p class="text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
-            <h3>Современные технологии</h3>
-            <p>
+            <h3 class="title">Современные технологии</h3>
+            <p class="text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -72,7 +76,7 @@
       <!-- Чем мы занимаемся -->
       <section class="section">
         <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./image/activity1.jpg"
@@ -106,7 +110,7 @@
       <section class="section">
         <h2 class="section-title">Наша команда</h2>
         \
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./image/foto1.jpg"
@@ -116,7 +120,7 @@
             />
             <h3>Николай Кучеренко</h3>
             <p lang="en">Product Designer</p>
-            <ul>
+            <ul class="list">
               <li><a href="" aria-label="ссылка на инстаграм">Instagram</a></li>
               <li><a href="" aria-label="ссылка на твитер">Twiter </a></li>
               <li><a href="" aria-label="ссылка на фейсбук">Facebook</a></li>
@@ -132,7 +136,7 @@
             />
             <h3>Ольга Иванова</h3>
             <p lang="en">Frontend Developer</p>
-            <ul>
+            <ul class="list">
               <li><a href="" aria-label="ссылка на инстаграм">Instagram</a></li>
               <li><a href="" aria-label="ссылка на твитер">Twiter </a></li>
               <li><a href="" aria-label="ссылка на фейсбук">Facebook</a></li>
@@ -148,7 +152,7 @@
             />
             <h3>Андрей Шевченко</h3>
             <p lang="en">Marketing</p>
-            <ul>
+            <ul class="list">
               <li><a href="" aria-label="ссылка на инстаграм">Instagram</a></li>
               <li><a href="" aria-label="ссылка на твитер">Twiter </a></li>
               <li><a href="" aria-label="ссылка на фейсбук">Facebook</a></li>
@@ -164,7 +168,7 @@
             />
             <h3>Иван Николаев</h3>
             <p lang="en">UI Designer</p>
-            <ul>
+            <ul class="list">
               <li><a href="" aria-label="ссылка на инстаграм">Instagram</a></li>
               <li><a href="" aria-label="ссылка на твитер">Twiter </a></li>
               <li><a href="" aria-label="ссылка на фейсбук">Facebook</a></li>
@@ -176,7 +180,7 @@
       <!-- Постоянные клиенты -->
       <section class="section">
         <h2 class="section-title">Постоянные клиенты</h2>
-        <ul>
+        <ul class="list">
           <li>
             <a href=""><img src="./image/logo1.svg" alt="logo-1" /></a>
           </li>
@@ -200,7 +204,7 @@
     </main>
     <!-- Подвал сайта -->
     <footer>
-      <a href="./index.html">Web Studio</a>
+      <a href="./index.html" class="logo">Web Studio</a>
       <address>
         <a href="https://goo.gl/maps/NypTD91cG4czdafWA" target="_blank"
           >г. Киев, пр-т Леси Украинки, 26</a
@@ -209,7 +213,7 @@
         <a href="tel:+380961111111">+38 096 111 11 11</a>
       </address>
       <b>присоединяйтесь</b>
-      <ul>
+      <ul class="list">
         <li><a href="" aria-label="ссылка на инстаграм">Instagram</a></li>
         <li><a href="" aria-label="ссылка на твитер">Twiter </a></li>
         <li><a href="" aria-label="ссылка на фейсбук">Facebook</a></li>
