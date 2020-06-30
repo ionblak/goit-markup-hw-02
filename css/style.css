@@ -22,9 +22,7 @@ address {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
-.link {
-  text-decoration: none;
-}
+
 .list {
   list-style: none;
 }
@@ -35,6 +33,10 @@ address {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  text-decoration: none;
+}
+.item {
+  color: var(--title-text-color);
 }
 .logo:hover,
 .logo:focus {
@@ -147,4 +149,7 @@ address {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--bg-color);
+}
+.link {
+  text-decoration: none;
 }
