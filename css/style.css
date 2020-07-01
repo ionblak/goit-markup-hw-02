@@ -26,6 +26,14 @@ address {
 .list {
   list-style: none;
 }
+/* работа ссылок */
+a.link {
+  text-decoration: none;
+}
+a.link:hover,
+a.link:focus {
+  color: var(--accent-color);
+}
 /* логотип сайта */
 .logo {
   color: var(--accent-color);
@@ -38,9 +46,6 @@ address {
 .item {
   color: var(--title-text-color);
 }
-.logo:hover,
-.logo:focus {
-  color: var(--accent-color);
 }
 /* навигация сайта */
 .site-nav .link {
@@ -49,13 +54,6 @@ address {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-}
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
-.site-nav .link.current {
-  color: var(--accent-color);
 }
 /* тело страницы */
 /*герой страницы*/
@@ -128,6 +126,7 @@ address {
 .footer {
   background-color: #2f303a;
 }
+/* логотип в футере */
 .footer .word {
   color: var(--bg-color);
 }
@@ -150,9 +149,7 @@ address {
   text-transform: uppercase;
   color: var(--bg-color);
 }
-.link {
-  text-decoration: none;
-}
+
 /* страница портфолио */
 
 .strainer .button {
