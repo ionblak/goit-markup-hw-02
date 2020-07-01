@@ -46,7 +46,7 @@ a.link:focus {
 .item {
   color: var(--title-text-color);
 }
-}
+
 /* навигация сайта */
 .site-nav .link {
   color: var(--title-text-color);
@@ -55,7 +55,7 @@ a.link:focus {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.address .link{
+.mail .link {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
