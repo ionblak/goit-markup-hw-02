@@ -53,14 +53,12 @@ a.link:focus {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 .contaks .link{
     color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 /* тело страницы */
 /*герой страницы*/
